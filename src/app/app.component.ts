@@ -15,8 +15,15 @@ export class AppComponent {
   myArr=['him','hers','yours'];
   angualarLogo ='https://angular.io/assets/images/logos/angular/shield-large.svg'
   buttonStatus =false;
-
+titleClass = 'red-title';
   myEvent(event){
     console.log(event);
+  };
+
+  titleClasses={
+    'red-title':false,
+    'large-title':true
   }
+
+
 }
