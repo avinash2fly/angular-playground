@@ -23,6 +23,11 @@ titleClass = 'red-title';
   titleClasses={
     'red-title':false,
     'large-title':true
+  };
+  titleStyle=true;
+  titleStyles={
+    'color':'pink',
+    'font-size':'4em'
   }
 
 
