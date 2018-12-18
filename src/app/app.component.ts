@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-playground';
+  myOnject ={
+    gender:'male',
+    age:33,
+    location:'USA'
+  };
+  myArr=['him','hers','yours']
 }
