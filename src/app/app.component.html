@@ -15,7 +15,10 @@
   <img [src]="angualarLogo">
   <img bind-src="angualarLogo">
 
-  <button [disabled]="buttonStatus">My Button </button>
+  <button [disabled]="buttonStatus"
+(click)="myEvent($event)">
+  My Button </button>
+
   <ul>
     <li *ngIf="!myArr">
       Yeah, I exist

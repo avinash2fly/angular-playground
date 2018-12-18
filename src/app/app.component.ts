@@ -15,4 +15,8 @@ export class AppComponent {
   myArr=['him','hers','yours'];
   angualarLogo ='https://angular.io/assets/images/logos/angular/shield-large.svg'
   buttonStatus =false;
+
+  myEvent(event){
+    console.log(event);
+  }
 }
