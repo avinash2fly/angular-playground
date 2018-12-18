@@ -12,5 +12,7 @@ export class AppComponent {
     age:33,
     location:'USA'
   };
-  myArr=['him','hers','yours']
+  myArr=['him','hers','yours'];
+  angualarLogo ='https://angular.io/assets/images/logos/angular/shield-large.svg'
+  buttonStatus =false;
 }

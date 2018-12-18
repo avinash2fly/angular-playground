@@ -11,6 +11,11 @@
   <ng-template #tmpl1>Yes, I exist</ng-template>
   <ng-template #tmpl2>No, I don't</ng-template>
 
+  <img src="{{ angualarLogo}}">
+  <img [src]="angualarLogo">
+  <img bind-src="angualarLogo">
+
+  <button [disabled]="buttonStatus">My Button </button>
   <ul>
     <li *ngIf="!myArr">
       Yeah, I exist
