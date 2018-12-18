@@ -1,3 +1,4 @@
+//ng g service data
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -11,5 +12,5 @@ cars=['Ford','Buick'];
 myData(){
   return 'This is my data, man!';
 }
-  
+
 }
