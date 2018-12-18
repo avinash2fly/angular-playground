@@ -9,3 +9,12 @@ h1{
 .large-title{
   font-size: 4em;
 }
+
+p{
+  width: 200px;
+  background: lightgrey;
+  margin: 100px auto;
+  text-align: 20px;
+  font-size: 1.5em;
+
+}

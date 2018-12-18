@@ -1,4 +1,6 @@
 //ng g service data
+
+
 import { Injectable } from '@angular/core';
 
 @Injectable({
